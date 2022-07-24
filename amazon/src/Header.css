@@ -1,0 +1,65 @@
+.header__logo {
+  width: 100px;
+  margin: 0 10px;
+  margin-top: 10px;
+  object-fit: contain;
+}
+
+.header {
+  background-color: #131921;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  bottom: 0;
+}
+
+.header__searchDiv {
+  display: flex;
+  flex: 1 1 auto;
+}
+
+.header__searchIcon {
+  background-color: orange;
+  padding: 5px;
+}
+
+.header__searchInput {
+  padding: 10px;
+  border: none;
+  width: 100%;
+  height: 14px;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header__link {
+  color: white;
+  text-decoration: none;
+}
+
+.header__loginDiv,
+.header__ordersDiv {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 10px;
+}
+
+.header__optionLineOne {
+  font-size: 10px;
+}
+
+.header__optionLineTwo {
+  font-size: 13;
+  font-weight: 800;
+}
+
+.header__cartDiv{
+    display: flex;
+    margin: 10px;
+}
+.header__cartNumber{
+    margin-right  : 5px;
+}
