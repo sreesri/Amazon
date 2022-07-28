@@ -1,36 +1,19 @@
-import React from 'react'
-import Header from './Header'
+import React from "react";
+import Header from "./Header";
+import { useStateValue } from "./StateProvider";
+import "./Checkout.css"
 
 function Checkout() {
+
+  const [basket, dispatch] = useStateValue();
+
   return (
     <>
-    <Header></Header>
-    <h1>edsfsdfgdsagasdfgadsg</h1>
-    <h1>edsfsdfgdsagasdfgadsg</h1>
-    <h1>edsfsdfgdsagasdfgadsg</h1>
-    <h1>edsfsdfgdsagasdfgadsg</h1>
-
-    <h1>edsfsdfgdsagasdfgadsg</h1>
-    <h1>edsfsdfgdsagasdfgadsg</h1>
-    <h1>edsfsdfgdsagasdfgadsg</h1>
-
-    <h1>edsfsdfgdsagasdfgadsg</h1>
-    <h1>edsfsdfgdsagasdfgadsg</h1>
-    <h1>edsfsdfgdsagasdfgadsg</h1>
-    <h1>edsfsdfgdsagasdfgadsg</h1>
-    <h1>edsfsdfgdsagasdfgadsg</h1>
-
-    <h1>edsfsdfgdsagasdfgadsg</h1>
-    <h1>edsfsdfgdsagasdfgadsg</h1>
-    <h1>edsfsdfgdsagasdfgadsg</h1>
-
-    
-    <h1>edsfsdfgdsagasdfgadsg</h1>
-    <h1>edsfsdfgdsagasdfgadsg</h1>
-    <h1>edsfsdfgdsagasdfgadsg</h1>
-
+      <div className="checkout">
+        <Header/>
+      </div>
     </>
-  )
+  );
 }
 
-export default Checkout
+export default Checkout;
