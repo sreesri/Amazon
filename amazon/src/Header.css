@@ -9,8 +9,8 @@
   background-color: #131921;
   display: flex;
   align-items: center;
-  position: sticky;
-  bottom: 0;
+  position: static;
+  float: none;
 }
 
 .header__searchDiv {

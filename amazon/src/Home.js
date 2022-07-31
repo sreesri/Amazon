@@ -33,21 +33,21 @@ function Home() {
           <Product
             id="2"
             title="Amazfit T-Rex 2 Premium Multisport GPS Sports Watch, 150+ Sports Modes (Astro Black & Gold)"
-            price={'15,999'}
+            price={15999}
             rating={4}
             image="https://m.media-amazon.com/images/I/71v-ZijBLJL._SX425_.jpg"
           />
           <Product
             id="3"
             title="Hisense 108 cm (43 inches) Bezelless Series 4K Ultra HD Smart LED Google TV 43A6H (Black)"
-            price={'28,890'}
+            price={28890}
             rating={3}
             image="https://m.media-amazon.com/images/I/71y4kCMAxzL._SX466_.jpg"
           />
           <Product
             id="4"
             title="Echo Dot (4th Gen, 2020 release)| Smart speaker with Alexa (Black)"
-            price={'2,099'}
+            price={2099}
             rating={5}
             image="https://m.media-amazon.com/images/I/41FgiLFNhFL._SY450_.jpg"
           />
@@ -56,7 +56,7 @@ function Home() {
           <Product
             id="5"
             title='Lenovo IdeaPad Gaming 3 Intel Core i5 11th Gen 15.6" (39.62cm) FHD IPS Gaming Laptop (8GB/512GB SSD/4GB NVIDIA GTX 1650/120Hz/Win 11/Backlit/3months Game Pass/Shadow Black/2.25Kg), 82K10198IN'
-            price={'52,999'}
+            price={52999}
             rating={4}
             image="https://m.media-amazon.com/images/I/71--IQUHVwL._SX425_.jpg"
           />
